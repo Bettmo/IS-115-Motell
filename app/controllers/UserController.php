@@ -1,5 +1,8 @@
 <?php
 
+require_once '../core/Controller.php';
+require_once '../app/models/User.php';
+
 class UserController extends Controller
 {
     public function register()
